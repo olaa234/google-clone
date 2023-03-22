@@ -11,6 +11,7 @@ import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import RoomIcon from "@mui/icons-material/Room";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 const SearchPage = () => {
+  // eslint-disable-next-line no-unused-vars
   const [{ term }, dispatch] = useStateValue();
   const { data } = useGoogleSearch(term); // live api call.
 
